@@ -9,8 +9,8 @@ The dataset we are using is OpenAlex. To run this project, please refer to the [
 To run this code correctly, please follow these steps in sequence.
 
 1. Follow the instructions in the file `Topic_Modeling.ipynb` to complete the Python environment configuration and model downloading.
-2. Run `Paper_Screening.ipynb` to select data into folder openalex_data. The folder should be created firstly.
+2. Run `Paper_Screening.ipynb` to select data into folder `openalex_data`. The folder should be created firstly.
 3. Run `Topic_Modeling.ipynb` to perform topic clustering. You can modify the output_dir variable beforehand to distinguish different clustering result folders.
-4. Run the `EX1` file to build the concept evolution tree. The TOPIC_DIR variable can also be modified to determine which topic's data to use for plotting.
+4. Run the `EX1` file to build the concept evolution tree. The `TOPIC_DIR` variable can also be modified to determine which topic's data to use for plotting.
 
 Files `Other_Supporting_Data.ipynb` and `EX2` are auxiliary experiments in the paper. `Other_Supporting_Data.ipynb` can be run independently. For `EX2`, ensure that the file_path variable is modified after running `Topic_Modeling.ipynb` to find the corresponding data.
