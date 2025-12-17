@@ -13,4 +13,6 @@ To run this code correctly, please follow these steps in sequence.
 3. Run `Topic_Modeling.ipynb` to perform topic clustering. You can modify the output_dir variable beforehand to distinguish different clustering result folders.
 4. Run the `EX1` file to build the concept evolution tree. The `TOPIC_DIR` variable can also be modified to determine which topic's data to use for plotting.
 
-Files `Other_Supporting_Data.ipynb` and `EX2` are auxiliary experiments in the paper. `Other_Supporting_Data.ipynb` can be run independently. For `EX2`, ensure that the file_path variable is modified after running `Topic_Modeling.ipynb` to find the corresponding data.
+Files `Other_Supporting_Data.ipynb`, `EX2`, `EX3` and `EX4` are auxiliary experiments in the paper. `Other_Supporting_Data.ipynb` and `EX3` can be run independently. For `EX2`, ensure that the file_path variable is modified after running `Topic_Modeling.ipynb` to find the corresponding data. Running `EX4` requires additional results from `EX1`. Please refer to the documentation for details.
+
+To facilitate reproduction, we provide the intermediate clustering file `preprocessed.tar.gz`. Extract it to the current directory to use it.
