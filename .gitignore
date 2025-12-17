@@ -210,3 +210,7 @@ openalex_data/
 llm
 topics_*/
 pic_for_paper/
+subtree_csv_*/
+tree_csv_*/
+paper_id_*/
+tree_fig_*/
