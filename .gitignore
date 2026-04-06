@@ -214,3 +214,5 @@ subtree_csv_*/
 tree_csv_*/
 paper_id_*/
 tree_fig_*/
+.vscode/
+concept_succession_curves/
